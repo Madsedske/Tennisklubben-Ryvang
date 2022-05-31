@@ -67,6 +67,7 @@ namespace Tennisklubben_Ryvang
                     conn.Close();
                 }
             }
+            ClientScript.RegisterStartupScript(Page.GetType(), "validation", "<script language='javascript'>alert('Bruger oprettet!')</script>");
         }
     }
 }

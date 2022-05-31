@@ -25,4 +25,3 @@
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Persons %>" SelectCommand="SELECT Persons.PersonID, Persons.Name, Persons.Address, Persons.PhoneNumber, Persons.Email, Persons_Payment.Age, Persons_Payment.Registration_Date FROM Persons INNER JOIN Persons_Payment ON Persons.Email = Persons_Payment.Email"></asp:SqlDataSource>
         </div>
 </asp:Content>
-
